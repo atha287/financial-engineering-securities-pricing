@@ -4,7 +4,7 @@ Implementation in python of various binomial tree-based pricing models for prici
 This repository contains the code to a voluntary project. The pricing of various derivative securities using the binomial tree model, as covered in [Financial Engineering and Risk Management Part I](https://www.coursera.org/learn/financial-engineering-1/home/welcome) on [Coursera](https://www.coursera.org/) is implemented in python. The pricing follows arbitrage-free and risk-neutral principles. Though the aforementioned course recommends the use of in-built MS Excel routines for such modelling, it is shown here that the same can be achieved in python. The models presented here are not exhaustive of the course curriculum, and more models may be added in the future.  
 
 The code for all models is present in `securities_pricing.py` and demonstrations of the outputs of a few models can be found in `demonstrations.ipynb`. Following is a list of all the argument names used for the various models:
- - S0: initial value of a security (stock, bond, etc.)
+ - `S0`: initial value of a security (stock, bond, etc.)
  - n: number of periods (till maturity)
  - u: multiplier associated with an up move in the binomial tree
  - d: multiplier associated with a down move in the binomial tree
