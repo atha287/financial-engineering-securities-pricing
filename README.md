@@ -13,7 +13,7 @@ The code for all models is present in `securities_pricing.py` and demonstrations
  - `R`: risk-free interest rate: R = (1 + r/100) where 'r' is the short-rate (fixed and deterministic)
  - `cp`: cp = 1 for a call option, cp = -1 for a put option
  - `ameu`: ameu = 'am' for an American option, ameu = 'eu' for a European option
- - `K` - strike price
+ - `K`: strike price
  - `und_sec`: entire binomial tree of the underlying security (as a list) on which the option is written
  - `r0`: present day interest rate (short rate) (enter percentage value)
  - `T`: maturity period of a derivative security (T <= n)
